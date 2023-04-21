@@ -1,0 +1,12 @@
+<outageNotification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="IEDROutageNotification.xsd">
+    <facilityId>FAC102</facilityId>
+    <facilityName>Brooklyn Battery Park</facilityName>
+    <outageStart>2023-04-22T14:30:00Z</outageStart>
+    <outageEnd>2023-04-22T20:30:00Z</outageEnd>
+    <location>
+        <latitude>40.703989</latitude>
+        <longitude>-74.017414</longitude>
+    </location>
+    <volumeAffected>2.56</volumeAffected>
+    <volumeUnaffected>12.34</volumeUnaffected>
+</outageNotification>

@@ -1,13 +1,11 @@
-<outageNotification>
-    <facilityID>12345</facilityID>
+<outageNotification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="IEDROutageNotification.xsd">
+    <facilityId>12345</facilityId>
     <facilityName>Example Facility</facilityName>
+    <outageStart>2023-04-21T10:30:00Z</outageStart>
     <location>
         <latitude>40.7128</latitude>
         <longitude>-74.0060</longitude>
     </location>
-    <outageType>Ongoing</outageType>
-    <outageStartTime>2023-04-21T10:30:00Z</outageStartTime>
-    <estimatedReturnToServiceTime>2023-04-22T16:00:00Z</estimatedReturnToServiceTime>
-    <volumeAffectedMW>1234.56</volumeAffectedMW>
-    <volumeUnaffectedMW>5678.90</volumeUnaffectedMW>
+    <volumeAffected>1234.56</volumeAffected>
+    <volumeUnaffected>5678.90</volumeUnaffected>
 </outageNotification>
