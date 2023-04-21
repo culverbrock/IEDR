@@ -7,9 +7,7 @@
                 <xs:element name="facilityId" type="xs:string"/>
                 <xs:element name="facilityName" type="xs:string"/>
                 <xs:element name="outageStart" type="xs:dateTime"/>
-                <xs:element name="outageEnd" type="xs:dateTime"/>
-                <xs:element name="outageDuration" type="xs:duration"/>
-                <xs:element name="outageReason" type="xs:string"/>
+                <xs:element name="outageEnd" type="xs:dateTime" minOccurs="0"/>
                 <xs:element name="location">
                     <xs:complexType>
                         <xs:sequence>
