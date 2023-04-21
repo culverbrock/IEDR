@@ -1,0 +1,22 @@
+INSERT INTO facility (facility_id, facility_name, facility_type, latitude, longitude, capacity_mw)
+VALUES
+('FAC-001', 'New York Power Station', 'STORAGE', 40.7128, -74.0060, 200.00),
+('FAC-002', 'Brooklyn Power Station', 'STORAGE', 40.6782, -73.9442, 500.00),
+('FAC-003', 'Queens Solar Farm', 'SOLAR', 40.7282, -73.7949, 50.00),
+('FAC-004', 'Buffalo Wind Farm', 'WIND', 42.8864, -78.8784, 300.00),
+('FAC-005', 'Niagara Falls Hydroelectric Power Plant', 'HYDRO', 43.0828, -79.0742, 2100.00),
+('FAC-006', 'Rochester Biomass Facility', 'BIOMASS', 43.1610, -77.6109, 100.00),
+('FAC-007', 'Syracuse Geothermal Plant', 'GEOTHERMAL', 43.0481, -76.1474, 25.00),
+('FAC-008', 'Albany Coal Power Plant', 'GENERATION', 42.6526, -73.7562, 800.00),
+('FAC-009', 'Westchester Natural Gas Plant', 'GENERATION', 41.1220, -73.7949, 600.00),
+('FAC-010', 'Long Island Tidal Energy Farm', 'TIDAL', 40.8682, -73.0853, 30.00),
+('FAC-011', 'Poughkeepsie Hydroelectric Dam', 'HYDRO', 41.7064, -73.9287, 150.00),
+('FAC-012', 'Suffolk County Solar Field', 'SOLAR', 40.9849, -72.6151, 75.00),
+('FAC-013', 'Orange County Wind Farm', 'WIND', 41.3912, -74.3118, 250.00),
+('FAC-014', 'Ulster County Biomass Facility', 'BIOMASS', 41.7759, -74.1198, 50.00),
+('FAC-015', 'Tompkins County Geothermal Plant', 'GEOTHERMAL', 42.443961, -76.501884, 10.00),
+('FAC-016', 'Clinton County Coal Power Plant', 'GENERATION', 44.9634, -73.8099, 500.00),
+('FAC-017', 'Essex County Natural Gas Plant', 'GENERATION', 44.1469, -73.7722, 400.00),
+('FAC-018', 'Franklin County Tidal Energy Farm', 'TIDAL', 44.7779, -73.0645, 20.00),
+('FAC-019', 'Jefferson County Hydroelectric Dam', 'HYDRO', 44.0115, -75.8545, 100.00),
+('FAC-020', 'Madison County Solar Field', 'SOLAR', 42.9406, -75.7840, 50.00);
