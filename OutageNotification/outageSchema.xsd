@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="outageNotification">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="facilityId" type="xs:string"/>
+                <xs:element name="facilityName" type="xs:string"/>
+                <xs:element name="outageStart" type="xs:dateTime"/>
+                <xs:element name="outageEnd" type="xs:dateTime"/>
+                <xs:element name="outageDuration" type="xs:duration"/>
+                <xs:element name="outageReason" type="xs:string"/>
+                <xs:element name="location">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="latitude" type="xs:decimal"/>
+                            <xs:element name="longitude" type="xs:decimal"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="volumeAffected" type="xs:decimal" precision="2"/>
+                <xs:element name="volumeUnaffected" type="xs:decimal" precision="2"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

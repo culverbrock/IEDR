@@ -1,0 +1,13 @@
+<outageNotification>
+    <facilityID>12345</facilityID>
+    <facilityName>Example Facility</facilityName>
+    <location>
+        <latitude>40.7128</latitude>
+        <longitude>-74.0060</longitude>
+    </location>
+    <outageType>Ongoing</outageType>
+    <outageStartTime>2023-04-21T10:30:00Z</outageStartTime>
+    <estimatedReturnToServiceTime>2023-04-22T16:00:00Z</estimatedReturnToServiceTime>
+    <volumeAffectedMW>1234.56</volumeAffectedMW>
+    <volumeUnaffectedMW>5678.90</volumeUnaffectedMW>
+</outageNotification>
